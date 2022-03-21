@@ -1,0 +1,159 @@
+local Letter = game.Players.RealJaiPlayzYT:FindFirstChild("ExerciseGUI"):WaitForChild("Textlabel").Text
+
+local v = 118
+local c = 99
+local b = 98
+local z = 122
+local h = 104
+local k = 107
+local e = 101
+local x = 120
+local y = 121
+local f = 102
+local j = 106
+local r = 114
+local u = 117
+local n = 110
+
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local Scriptgui = Instance.new("ScreenGui")
+local GUI = Instance.new("Frame")
+local Click = Instance.new("TextButton")
+local Name = Instance.new("Frame")
+local TextLabel1 = Instance.new("TextLabel")
+local TextLabel2 = Instance.new("TextLabel")
+
+--Properties:
+
+Scriptgui.Name = "Scriptgui"
+Scriptgui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Scriptgui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+GUI.Name = "GUI"
+GUI.Parent = Scriptgui
+GUI.AnchorPoint = Vector2.new(0.5, 0.5)
+GUI.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+GUI.Position = UDim2.new(0.5, 0, 0.5, 0)
+GUI.Size = UDim2.new(0, 300, 0, 400)
+
+Click.Name = "Click"
+Click.Parent = GUI
+Click.AnchorPoint = Vector2.new(0.5, 0.5)
+Click.BackgroundColor3 = Color3.fromRGB(72, 72, 72)
+Click.Position = UDim2.new(0.5, 0, 0.5, 0)
+Click.Size = UDim2.new(0, 200, 0, 200)
+Click.Font = Enum.Font.Cartoon
+Click.Text = "Click Here to Train!"
+Click.TextColor3 = Color3.fromRGB(0, 0, 0)
+Click.TextSize = 36.000
+Click.TextWrapped = true
+Click.MouseButton1Down:connect(function()
+
+if Letter == "v" then
+    keypress(v)
+    wait(0.5)
+end
+
+if Letter == "c" then
+    keypress(c)
+    wait(0.5)
+end
+
+if Letter == "b" then
+    keypress(b)
+    wait(0.5)
+end
+
+if Letter == "z" then
+    keypress(z)
+    wait(0.5)
+end
+
+if Letter == "h" then
+    keypress(h)
+    wait(0.5)
+end
+
+if Letter == "k" then
+    keypress(k)
+    wait(0.5)
+end
+
+if Letter == "e" then
+    keypress(e)
+    wait(0.5)
+end
+
+if Letter == "x" then
+    keypress(x)
+    wait(0.5)
+end
+
+if Letter == "y" then
+    keypress(y)
+    wait(0.5)
+end
+
+if Letter == "f" then
+    keypress(f)
+    wait(0.5)
+end
+
+if Letter == "j" then
+    keypress(j)
+    wait(0.5)
+end
+
+if Letter == "r" then
+    keypress(r)
+    wait(0.5)
+end
+
+if Letter == "u" then
+    keypress(u)
+    wait(0.5)
+end
+
+if Letter == "n" then
+    keypress(n)
+    wait(0.5)
+end
+
+end)
+
+Name.Name = "Name"
+Name.Parent = GUI
+Name.AnchorPoint = Vector2.new(0.5, 0.5)
+Name.BackgroundColor3 = Color3.fromRGB(72, 72, 72)
+Name.BorderSizePixel = 0
+Name.Position = UDim2.new(0, 150, 0, 25)
+Name.Size = UDim2.new(0, 300, 0, 50)
+
+TextLabel1.Name = "TextLabel1"
+TextLabel1.Parent = GUI
+TextLabel1.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel1.BackgroundColor3 = Color3.fromRGB(72, 72, 72)
+TextLabel1.Position = UDim2.new(0, 150, 0, 25)
+TextLabel1.Size = UDim2.new(0, 300, 0, 50)
+TextLabel1.Font = Enum.Font.Cartoon
+TextLabel1.Text = "Quicker Training DSRPG2"
+TextLabel1.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel1.TextScaled = true
+TextLabel1.TextSize = 14.000
+TextLabel1.TextWrapped = true
+
+TextLabel2.Name = "TextLabel2"
+TextLabel2.Parent = GUI
+TextLabel2.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel2.BackgroundColor3 = Color3.fromRGB(72, 72, 72)
+TextLabel2.Position = UDim2.new(0, 150, 0, 375)
+TextLabel2.Size = UDim2.new(0, 300, 0, 50)
+TextLabel2.Font = Enum.Font.Cartoon
+TextLabel2.Text = "Made by JaiDoesVideos#6969"
+TextLabel2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel2.TextSize = 23.000
+TextLabel2.TextWrapped = true
